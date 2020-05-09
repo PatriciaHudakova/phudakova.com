@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#links {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  min-width: 100%;
+  min-height: 10%;
+}
+
+#gmail {
+  left: 170px;
+}
+
+#blog {
+  position: relative;
+  top: 30px;
+  left: 600px;
+}
+
+#github {
+  position: relative;
+  top: 30px;
+  left: 800px;
+}
+
+#gmail {
+  position: relative;
+  top: 30px;
+  left: 1000px;
+}
+
+#cv {
+  position: relative;
+  top: 30px;
+  left: 1200px;
+}
