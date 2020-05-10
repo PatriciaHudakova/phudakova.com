@@ -25,7 +25,7 @@ code {
 
 #namebar {
   position: absolute;
-  background-color: white;
+  background-color: salmon;
   top: 0;
   min-height: 8%;
   min-width: 20%;
@@ -39,7 +39,7 @@ code {
   top: 8%;
   min-width: 20%;
   min-height: 92%;
-  background-color: antiquewhite;
+  background-color: salmon;
 }
 
 #links {
