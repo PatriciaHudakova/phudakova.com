@@ -12,38 +12,65 @@ code {
     monospace;
 }
 
-#links {
+#bio {
   position: absolute;
-  bottom: 0;
-  background-color: white;
-  min-width: 100%;
-  min-height: 10%;
+  top: 250px;
+  left: 600px;
+  min-width: 40%;
+  min-height: 30%;
+  font-size: large;
+  font-family: monospace;
+  text-align-all: left;
 }
 
-#gmail {
-  left: 170px;
+#namebar {
+  position: absolute;
+  background-color: white;
+  top: 0;
+  min-height: 8%;
+  min-width: 20%;
+  font-size: x-large;
+  text-align: center;
+  font-family: Caladea;
+}
+
+#sidebar {
+  position: absolute;
+  top: 8%;
+  min-width: 20%;
+  min-height: 92%;
+  background-color: antiquewhite;
+}
+
+#links {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  background-color: white;
+  min-width: 80%;
+  min-height: 8%;
 }
 
 #blog {
   position: relative;
-  top: 30px;
-  left: 600px;
+  top: 20px;
+  left: 1200px;
 }
 
 #github {
   position: relative;
-  top: 30px;
-  left: 800px;
+  top: 20px;
+  left: 1250px;
 }
 
 #gmail {
   position: relative;
-  top: 30px;
-  left: 1000px;
+  top: 20px;
+  left: 1300px;
 }
 
 #cv {
   position: relative;
-  top: 30px;
-  left: 1200px;
+  top: 20px;
+  left: 1350px;
 }
