@@ -4,7 +4,7 @@
   top: 0;
   min-height: 8%;
   width: 20%;
-  font-size: x-large;
+  font-size: 1.5vw;
   text-align: center;
   font-family: Caladea;
 }
@@ -15,8 +15,8 @@
   left: 30%;
   width: auto;
   height: 30%;
-  max-font-size: large;
-  font-min-size: 0.5vw;
+  font-max-size: 0.8vw;
+  font-min-size: 0.6vw;
   font-family: monospace;
   text-align-all: left;
 }
