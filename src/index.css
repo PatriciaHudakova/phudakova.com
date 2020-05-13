@@ -1,71 +1,21 @@
-#namebar {
-  position: absolute;
-  background-color: salmon;
-  top: 0;
-  min-height: 8%;
-  width: 20%;
-  font-size: 1.5vw;
-  text-align: center;
-  font-family: Caladea;
+body {
+    padding-top: 5rem;
 }
 
-#bio {
-  position: absolute;
-  top: 250px;
-  left: 30%;
-  width: auto;
-  height: 30%;
-  font-max-size: 0.8vw;
-  font-min-size: 0.6vw;
-  font-family: monospace;
-  text-align-all: left;
+.bio {
+    position: relative;
+
+    margin: 2vw;
 }
 
-#sidebar {
-  position: absolute;
-  top: 8%;
-  width: 20%;
-  height: 92%;
-  background-color: salmon;
+.bioContainer {
+    padding: 3rem 1.5rem;
+    text-align: center;
 }
 
-#profileImg {
-  width: 300px;
-  height: 300px;
-  position: absolute;
-  left: 50px;
-  top: 160px;
+.btn-margin-left {
+    margin-left: 25px;
 }
-
-#github {
-  width: 50px;
-  height: 50px;
-   position: absolute;
-   left: 45%;
-   top: 57%;
- }
-
-#linkedin {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  left: 45%;
-  top: 67%;
+.btn-margin-right {
+    margin-right: 25px;
 }
-
-#gmail {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  left: 45%;
-  top: 77%;
-}
-
-#cv {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  left: 45%;
-  top: 87%;
-}
-
