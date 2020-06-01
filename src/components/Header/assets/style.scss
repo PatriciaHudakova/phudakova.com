@@ -1,0 +1,10 @@
+@import "../../../assets/scss/variables";
+
+.header {
+  background-color: $primary;
+  padding: 2rem 1rem;
+  min-height: 50vh;
+  h1 {
+    color: $greyLight;
+  }
+}

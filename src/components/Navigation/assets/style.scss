@@ -1,0 +1,17 @@
+@import "../../../assets/scss/variables";
+
+.navigation {
+  .navbar {
+    background-color: $primary;
+    a, * {
+      color: $greyLight;
+    }
+    li {
+      margin-left: 10px;
+    }
+    .navbar-nav {
+      flex-direction: row;
+    }
+  }
+
+}
