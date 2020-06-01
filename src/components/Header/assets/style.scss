@@ -2,9 +2,25 @@
 
 .header {
   background-color: $primary;
-  padding: 2rem 1rem;
-  min-height: 50vh;
-  h1, h4 {
-    color: $greyLight;
+  .row {
+      padding: 2rem 1rem;
+      min-height: 50vh;
+
+      .text {
+         h1, h4 {
+            color: $greyLight;
+         }
+      margin-bottom: 25px;
+      margin-left: 15px;
+      }
+
+      .image {
+        position: relative;
+        width: 45%;
+      }
+        .rounded-circle {
+            margin-left: 30%;
+            max-width: 200px;
+        }
   }
 }
