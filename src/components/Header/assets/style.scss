@@ -4,23 +4,31 @@
   background-color: $primary;
   .row {
       padding: 2rem 1rem;
-      min-height: 50vh;
+      min-height: 40vh;
 
-      .text {
-         h1, h4 {
+      .left-block {
+         h1 {
             color: $greyLight;
+            font-size: calc(100% + 1vw + 1vh);
+            margin-bottom: 40px;
+         }
+         h4 {
+            color: $greyLight;
+            font-size: calc(30% + 1vw + 1vh);
          }
       margin-bottom: 25px;
       margin-left: 15px;
       }
 
-      .image {
+      .center-block {
         position: relative;
-        width: 45%;
-      }
-        .rounded-circle {
-            margin-left: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+            .rounded-circle {
             max-width: 200px;
         }
+     }
   }
 }
