@@ -5,45 +5,29 @@ import './assets/style.scss'
 const Content = props => {
     return (
         <Container className='myContent'>
-            <h2 className='mt-5'>What i am doin</h2>
+            <h2 className='row-cols-1 mt-5'>What do I do?</h2><br />
+            <h7 className='row-cols-1 ml-5 mr-5'>
+                Aside from working, I enjoy learning and applying new concepts to my hobby projects, feel free to
+                check them out on my timeline below!
+            </h7>
 
-            // what i am doin
             <section className='mt-4 claimSection'>
                 {'<P'} <br/>
-                <span>{'programmer = {JAVA}'}</span>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
                 {'/>'}
             </section>
-
-            // education
-
-
-            // work experience
-
-            // mz research
-
-
-            // skills (?)
-
-
-            // profile or hobbies and interessts
-
-                // instagrale
-                //
-
-
-
-
-
-
         </Container>
     )
 }

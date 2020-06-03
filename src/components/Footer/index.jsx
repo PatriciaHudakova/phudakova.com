@@ -1,5 +1,5 @@
-import React from "react";
-import classnames from "classnames";
+import React from 'react';
+import classnames from 'classnames';
 import './assets/style.scss'
 
 class Footer extends React.Component {
@@ -32,11 +32,11 @@ class Footer extends React.Component {
     render() {
         return (
             <footer
-                className={classnames("fixed-bottom", {
-                    "fixed-bottom--hidden": this.state.visible
+                className={classnames('fixed-bottom', {
+                    'fixed-bottom--hidden': this.state.visible
                 })}
             >
-                <a href='mailto:phudakova7@gmail.com' type="button" className="btn btn-danger btn-md">
+                <a href='mailto:phudakova7@gmail.com' type='button' className='btn btn-danger btn-md'>
                     Get In Touch!
                 </a>
             </footer>
