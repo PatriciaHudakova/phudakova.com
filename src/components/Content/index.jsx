@@ -30,6 +30,14 @@ const Content = props => {
                             A platform for people to record, share and look up restaurant experiences so they
                             don't have to have the same bad experience twice.
                         </p>
+                        <row>
+                            <span className="badge badge-pill badge-dark">REACT</span>
+                            <span className="badge badge-pill badge-info">SCSS</span>
+                            <span className="badge badge-pill badge-success">JSX</span>
+                            <span className="badge badge-pill badge-light">Authentication</span>
+                            <span className="badge badge-pill badge-warning">PostgreSQL</span>
+                            <span className="badge badge-pill badge-danger">APIs</span>
+                        </row>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work align='left'"
@@ -42,6 +50,13 @@ const Content = props => {
                         <p>
                             A responsive, fully functional personal website with an entirely different feel created using REACT JS libary.
                         </p>
+                        <row>
+                            <span className="badge badge-pill badge-dark">REACT</span>
+                            <span className="badge badge-pill badge-danger">Bootstrap</span>
+                            <span className="badge badge-pill badge-info">SCSS</span>
+                            <span className="badge badge-pill badge-success">JSX</span>
+                            <span className="badge badge-pill badge-warning">JS</span>
+                        </row>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work align='left'"
@@ -54,6 +69,10 @@ const Content = props => {
                         <p>
                             A simply static yet fully functional personal website.
                         </p>
+                        <row>
+                            <span className="badge badge-pill badge-success">HTML</span>
+                            <span className="badge badge-pill badge-info">CSS</span>
+                        </row>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work align='left'"
@@ -67,6 +86,11 @@ const Content = props => {
                             A telegram bot created using Golang that helps you keep track of your scheduled events
                             with full create, edit, delete and reminder functionality.
                         </p>
+                        <row>
+                            <span className="badge badge-pill badge-info">Golang</span>
+                            <span className="badge badge-pill badge-danger">APIs</span>
+                            <span className="badge badge-pill badge-warning">PostgreSQL</span>
+                        </row>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work align='left'"
@@ -80,6 +104,14 @@ const Content = props => {
                             Final year project involved exploring web vulnerabilities and their mitigations using a test
                             website specifically created for that purpose.
                         </p>
+                        <row>
+                            <span className="badge badge-pill badge-dark">Django</span>
+                            <span className="badge badge-pill badge-success">HTML</span>
+                            <span className="badge badge-pill badge-info">CSS</span>
+                            <span className="badge badge-pill badge-light">Cryptography</span>
+                            <span className="badge badge-pill badge-danger">Web Security</span>
+                            <span className="badge badge-pill badge-warning">SQL</span>
+                        </row>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work align='left'"
@@ -121,6 +153,12 @@ const Content = props => {
                             algorithms: Dijkstra's, Kruskal's, Hamiltonian and Vertex Colouring
                             as an executable .jar file.
                         </p>
+                        <row>
+                            <span className="badge badge-pill badge-danger">Java</span>
+                            <span className="badge badge-pill badge-success">HTML</span>
+                            <span className="badge badge-pill badge-info">CSS</span>
+                            <span className="badge badge-pill badge-warning">Software Enginering</span>
+                        </row>
                     </VerticalTimelineElement>
                 </VerticalTimeline>
                 {'/>'}
