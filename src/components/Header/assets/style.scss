@@ -17,6 +17,15 @@
             color: $greyLight;
             font-size: calc(30% + 1vw + 1vh);
          }
+         .btn-xl {
+             padding: 18px 28px;
+             font-size: 27px;
+             line-height: normal;
+             -webkit-border-radius: 8px;
+             -moz-border-radius: 8px;
+             border-radius: 8px;
+         }
+
       margin-bottom: 25px;
       margin-left: 15px;
       }
@@ -25,8 +34,8 @@
         margin-left: auto;
         margin-right: auto;
         .img-responsive {
-          max-width: 40%;
-          margin-left: 35%;
+          max-width: 60%;
+          margin-left: 23%;
         }
         }
      }

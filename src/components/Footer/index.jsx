@@ -36,7 +36,7 @@ class Footer extends React.Component {
                     'fixed-bottom--hidden': this.state.visible
                 })}
             >
-                <a href='mailto:phudakova7@gmail.com' type='button' className='btn btn-danger btn-md'>
+                <a href='mailto:phudakova7@gmail.com' type='button' className='btn btn-danger btn-lg'>
                     Get In Touch!
                 </a>
             </footer>

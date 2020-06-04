@@ -15,7 +15,7 @@ const Navigation = props => {
     return (
         <div className='navigation'>
             <Navbar expand="md">
-                <NavbarBrand href="/">{'<P />'}</NavbarBrand>
+                <NavbarBrand className={'text-lg'} href="/">{'<P />'}</NavbarBrand>
                 <Nav className="ml-auto" navbar>
                     <NavItem>
                         <NavLink href="https://github.com/PatriciaHudakova" target='_blank'><IoLogoGithub /></NavLink>
