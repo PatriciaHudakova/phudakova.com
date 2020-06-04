@@ -3,8 +3,13 @@
 .navigation {
   .navbar {
     background-color: $primary;
-    a, * {
+    a {
       color: $greyLight;
+      font-size: 1.7rem;
+      transition: color 100ms ease-in-out;
+      &:hover {
+        color: lighten($greyLight, 30);
+      }
     }
     li {
       margin-left: 10px;

@@ -1,42 +1,50 @@
 @import "../../../assets/scss/variables";
 
 .header {
+  position: relative;
+  overflow: hidden;
   background-color: $primary;
   .row {
-      padding: 2rem 1rem;
-      min-height: 40vh;
-      max-width: 100%;
+    padding: 2rem 1rem;
+    min-height: 40vh;
+    max-width: 100%;
 
-      .text {
-         h1 {
-            color: $greyLight;
-            font-size: calc(100% + 1vw + 1vh);
-            margin-bottom: 40px;
-         }
-         h4 {
-            color: $greyLight;
-            font-size: calc(30% + 1vw + 1vh);
-         }
-         .btn-xl {
-             padding: 18px 28px;
-             font-size: 27px;
-             line-height: normal;
-             -webkit-border-radius: 8px;
-             -moz-border-radius: 8px;
-             border-radius: 8px;
-         }
+    .text {
+      .h1 {
+        color: $greyLight;
+        font-size: calc(100% + 1vw + 1vh);
+        margin-bottom: 40px;
+        font-size: 4rem;
+      }
+
+      .h4 {
+        color: $greyLight;
+        font-size: calc(30% + 1vw + 1vh);
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+      }
+
+      .btn-xl {
+        padding: 18px 28px;
+        font-size: 27px;
+        line-height: normal;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+      }
 
       margin-bottom: 25px;
       margin-left: 15px;
-      }
-
-      .center-block {
-        margin-left: auto;
-        margin-right: auto;
-        .img-responsive {
-          max-width: 60%;
-          margin-left: 23%;
-        }
-        }
-     }
+    }
   }
+  .hero {
+    color: $greyLight;
+    font-size: 40rem;
+    font-weight: 800;
+    position: absolute;
+    top: -10rem;
+    right:-3rem;
+    opacity: 0.07;
+  ;
+  }
+}

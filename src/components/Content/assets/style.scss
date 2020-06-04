@@ -1,3 +1,5 @@
+@import '../../../assets/scss/variables';
+
 .myContent {
   h2 {
     font-size: calc(100% + 1vw + 1vh);
@@ -11,5 +13,8 @@
       max-height: 25px;
       font-size: 14px;
     }
+  }
+  .vertical-timeline-element-icon svg {
+    color: $greyLight ;
   }
 }

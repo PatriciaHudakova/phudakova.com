@@ -6,7 +6,6 @@ class Footer extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            prevScrollpos: window.pageYOffset,
             visible: false
         }
     }
@@ -20,11 +19,9 @@ class Footer extends React.Component {
     }
 
     handleScroll = () => {
-        const { prevScrollpos } = this.state;
         const currentScrollPos = window.pageYOffset;
-        const visible = prevScrollpos > currentScrollPos;
+        const visible = 400 > currentScrollPos;
         this.setState({
-            prevScrollpos: currentScrollPos,
             visible
         });
     };

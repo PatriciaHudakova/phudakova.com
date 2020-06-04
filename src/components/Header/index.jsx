@@ -1,22 +1,31 @@
 import React from 'react';
+import {Row, Col, Container} from 'reactstrap';
 import './assets/style.scss'
 import profile from './assets/img/profile.png'
 
 const Header = props => {
     return (
         <div className='header'>
-            <div className='row ml-3 mr-3'>
-                <div className="text text-lg-left text-center">
-                    <h1>Hey There!</h1><br />
-                    <h4>I'm Patricia, and I'm an Information Security <br />graduate with a keen interest in software engineering!</h4><br /><br /><br />
-                    <a href='mailto:phudakova7@gmail.com' type='button' className='btn btn-outline-danger btn-xl'>
-                        Get In Touch!
-                    </a>
-                </div>
-                <picture className='center-block mt-5'>
-                    <img src={profile} className='img-responsive' alt='Responsive image' />
-                </picture>
-            </div>
+            <Container>
+                <Row>
+                    <Col xs={12} sm={{size:6, order: 2}} md={{size:4, order: 2, offset: 1}} className='text-sm-right text-center'>
+                        <picture className='center-block mt-5 w-100'>
+                            <img src={profile} className='img-responsive w-100 p-4' alt='Responsive image' />
+                        </picture>
+                    </Col>
+
+                    <Col xs={12} sm={{size:6, order: 1}} md={{size:7, order: 1}}>
+                        <div className="text text-lg-left text-center">
+                            <h1 className='h1'>Hey There!</h1><br />
+                            <h2 className='h4'>I'm Patricia, and I'm an Information Security <br />graduate with a keen interest in software engineering!</h2><br /><br /><br />
+                            <a href='mailto:phudakova7@gmail.com' type='button' className='btn btn-outline-danger btn-xl'>
+                                Get In Touch!
+                            </a>
+                        </div>
+                    </Col>
+                </Row>
+                <div className='hero'>{'<P/>'}</div>
+            </Container>
         </div>
     )
 }
