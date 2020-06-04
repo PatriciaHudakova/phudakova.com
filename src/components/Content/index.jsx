@@ -24,8 +24,8 @@ const Content = props => {
                         iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
                         icon={<IoIosLaptop />}
                     >
-                        <h3 className="vertical-timeline-element-title">Restaurant Log</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Hobby Project</h4>
+                        <h4 className="vertical-timeline-element-title font-weight-bold">Restaurant Log</h4>
+                        <h5 className="vertical-timeline-element-subtitle mt-1">Hobby Project</h5>
                         <p>
                             A platform for people to record, share and look up restaurant experiences so they
                             don't have to have the same bad experience twice.
@@ -37,7 +37,7 @@ const Content = props => {
                             <span className="badge badge-pill badge-light">Authentication</span>
                             <span className="badge badge-pill badge-warning">PostgreSQL</span>
                             <span className="badge badge-pill badge-danger">APIs</span>
-                        </row>
+                        </row><br />
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work align='left'"
@@ -45,8 +45,8 @@ const Content = props => {
                         iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
                         icon={<IoIosLaptop />}
                     >
-                        <h3 className="vertical-timeline-element-title">phudakova.com v2.0</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Hobby Project</h4>
+                        <h4 className="vertical-timeline-element-title font-weight-bold">phudakova.com v2.0</h4>
+                        <h5 className="vertical-timeline-element-subtitle mt-1">Hobby Project</h5>
                         <p>
                             A responsive, fully functional personal website with an entirely different feel created using REACT JS libary.
                         </p>
@@ -56,7 +56,7 @@ const Content = props => {
                             <span className="badge badge-pill badge-info">SCSS</span>
                             <span className="badge badge-pill badge-success">JSX</span>
                             <span className="badge badge-pill badge-warning">JS</span>
-                        </row>
+                        </row><br />
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work align='left'"
@@ -64,15 +64,15 @@ const Content = props => {
                         iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
                         icon={<IoIosLaptop />}
                     >
-                        <h3 className="vertical-timeline-element-title">phudakova.com v1.0</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Hobby Project</h4>
+                        <h4 className="vertical-timeline-element-title font-weight-bold">phudakova.com v1.0</h4>
+                        <h5 className="vertical-timeline-element-subtitle mt-1">Hobby Project</h5>
                         <p>
                             A simply static yet fully functional personal website.
                         </p>
                         <row>
                             <span className="badge badge-pill badge-success">HTML</span>
                             <span className="badge badge-pill badge-info">CSS</span>
-                        </row>
+                        </row><br />
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work align='left'"
@@ -80,8 +80,8 @@ const Content = props => {
                         iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
                         icon={<IoIosLaptop />}
                     >
-                        <h3 className="vertical-timeline-element-title">Telegram Event Bot</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Hobby Project</h4>
+                        <h4 className="vertical-timeline-element-title font-weight-bold">Telegram Event Bot</h4>
+                        <h5 className="vertical-timeline-element-subtitle mt-1">Hobby Project</h5>
                         <p>
                             A telegram bot created using Golang that helps you keep track of your scheduled events
                             with full create, edit, delete and reminder functionality.
@@ -90,7 +90,7 @@ const Content = props => {
                             <span className="badge badge-pill badge-info">Golang</span>
                             <span className="badge badge-pill badge-danger">APIs</span>
                             <span className="badge badge-pill badge-warning">PostgreSQL</span>
-                        </row>
+                        </row><br />
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work align='left'"
@@ -98,8 +98,8 @@ const Content = props => {
                         iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
                         icon={<FaGraduationCap />}
                     >
-                        <h3 className="vertical-timeline-element-title">MSc Information Security</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Royal Holloway, University of London</h4>
+                        <h4 className="vertical-timeline-element-title font-weight-bold">MSc Information Security</h4>
+                        <h5 className="vertical-timeline-element-subtitle mt-2">Royal Holloway, University of London</h5>
                         <p>
                             Final year project involved exploring web vulnerabilities and their mitigations using a test
                             website specifically created for that purpose.
@@ -111,7 +111,7 @@ const Content = props => {
                             <span className="badge badge-pill badge-light">Cryptography</span>
                             <span className="badge badge-pill badge-danger">Web Security</span>
                             <span className="badge badge-pill badge-warning">SQL</span>
-                        </row>
+                        </row><br />
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work align='left'"
@@ -119,8 +119,8 @@ const Content = props => {
                         iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
                         icon={<IoIosBriefcase />}
                     >
-                        <h3 className="vertical-timeline-element-title">Teaching Assistant</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Royal Holloway, University of London</h4>
+                        <h4 className="vertical-timeline-element-title font-weight-bold">Teaching Assistant</h4>
+                        <h5 className="vertical-timeline-element-subtitle mt-2">Royal Holloway, University of London</h5>
                         <p>
                             Assisting with OOP and Software Design labs throughout the year involving
                             explaining concepts, helping with set-up and marking.
@@ -132,8 +132,8 @@ const Content = props => {
                         iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
                         icon={<IoIosBriefcase />}
                     >
-                        <h3 className="vertical-timeline-element-title">Tutor</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Fire-Tech Camp</h4>
+                        <h4 className="vertical-timeline-element-title font-weight-bold">Tutor</h4>
+                        <h5 className="vertical-timeline-element-subtitle">Fire-Tech Camp</h5>
                         <p>
                             Delivering in person and remote courses for young people including
                             Video Game Design, AR/VR and Arduino. During my time there, I’ve
@@ -146,8 +146,8 @@ const Content = props => {
                         iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
                         icon={<FaGraduationCap />}
                     >
-                        <h3 className="vertical-timeline-element-title">BSc Computer Science and Mathematics</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Royal Holloway, University of London</h4>
+                        <h4 className="vertical-timeline-element-title font-weight-bold">BSc Computer Science and Mathematics</h4>
+                        <h5 className="vertical-timeline-element-subtitle mt-2">Royal Holloway, University of London</h5>
                         <p>
                             Final year project involved creating a graph calculator with the following
                             algorithms: Dijkstra's, Kruskal's, Hamiltonian and Vertex Colouring
@@ -158,7 +158,7 @@ const Content = props => {
                             <span className="badge badge-pill badge-success">HTML</span>
                             <span className="badge badge-pill badge-info">CSS</span>
                             <span className="badge badge-pill badge-warning">Software Enginering</span>
-                        </row>
+                        </row><br />
                     </VerticalTimelineElement>
                 </VerticalTimeline>
                 {'/>'}

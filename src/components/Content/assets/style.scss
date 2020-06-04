@@ -5,8 +5,11 @@
 
   .claimSection {
     font-size: 2rem;
-    * {
-      font-size: 1rem;
+
+    .badge-danger, .badge-info, .badge-warning, .badge-success, .badge-dark, .badge-light {
+      width: auto;
+      max-height: 25px;
+      font-size: 14px;
     }
   }
 }
