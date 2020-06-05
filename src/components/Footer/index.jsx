@@ -20,7 +20,7 @@ class Footer extends React.Component {
 
     handleScroll = () => {
         const currentScrollPos = window.pageYOffset;
-        const visible = 400 > currentScrollPos;
+        const visible = 450 > currentScrollPos;
         this.setState({
             visible
         });
