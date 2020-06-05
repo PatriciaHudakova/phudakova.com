@@ -18,7 +18,7 @@ const Content = props => {
             <section className='mt-4 timeline' >
                 <MyTimeline />
             </section>
-            <h2 className='icon row-cols-1 mt-5'><IoIosCamera /> Beside working <IoIosCamera /></h2><br />
+            <h2 className='icon row-cols-1 mt-5'><IoIosCamera /> Outside of work <IoIosCamera /></h2><br />
             <section className='mt-4 timeline' >
                 <MyHobbies />
             </section>
