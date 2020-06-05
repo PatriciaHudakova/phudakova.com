@@ -29,11 +29,11 @@ class Footer extends React.Component {
     render() {
         return (
             <footer
-                className={classnames('fixed-bottom', {
+                className={classnames('fixed-bottom col-xs-7', {
                     'fixed-bottom--hidden': this.state.visible
                 })}
             >
-                <a href='mailto:phudakova7@gmail.com' type='button' className='btn btn-danger btn-lg'>
+                <a href='mailto:phudakova7@gmail.com' type='button' className='btn btn-danger btn-lg col-xs-7'>
                     Get In Touch!
                 </a>
             </footer>
