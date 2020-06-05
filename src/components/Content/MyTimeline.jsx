@@ -25,6 +25,7 @@ const MyTimeline = () => (
                     <span className="badge badge-pill badge-light">Authentication</span>
                     <span className="badge badge-pill badge-warning">PostgreSQL</span>
                     <span className="badge badge-pill badge-danger">APIs</span>
+                    <span className="badge badge-pill badge-success">Git</span>
                 </row><br />
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -44,6 +45,7 @@ const MyTimeline = () => (
                     <span className="badge badge-pill badge-info">SCSS</span>
                     <span className="badge badge-pill badge-success">JSX</span>
                     <span className="badge badge-pill badge-warning">JS</span>
+                    <span className="badge badge-pill badge-success">Git</span>
                 </row><br />
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -60,6 +62,7 @@ const MyTimeline = () => (
                 <row>
                     <span className="badge badge-pill badge-success">HTML</span>
                     <span className="badge badge-pill badge-info">CSS</span>
+                    <span className="badge badge-pill badge-success">Git</span>
                 </row><br />
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -78,6 +81,7 @@ const MyTimeline = () => (
                     <span className="badge badge-pill badge-info">Golang</span>
                     <span className="badge badge-pill badge-danger">APIs</span>
                     <span className="badge badge-pill badge-warning">PostgreSQL</span>
+                    <span className="badge badge-pill badge-success">Git</span>
                 </row><br />
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -99,6 +103,8 @@ const MyTimeline = () => (
                     <span className="badge badge-pill badge-light">Cryptography</span>
                     <span className="badge badge-pill badge-danger">Web Security</span>
                     <span className="badge badge-pill badge-warning">SQL</span>
+                    <span className="badge badge-pill badge-secondary">Bash</span>
+                    <span className="badge badge-pill badge-light">LaTex</span>
                 </row><br />
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -129,7 +135,7 @@ const MyTimeline = () => (
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                className="vertical-timeline-element--work"
+                className="vertical-timeline-element--work mb-5"
                 date="2015 - 2018"
                 iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
                 icon={<FaGraduationCap />}
@@ -145,6 +151,8 @@ const MyTimeline = () => (
                     <span className="badge badge-pill badge-danger">Java</span>
                     <span className="badge badge-pill badge-success">HTML</span>
                     <span className="badge badge-pill badge-info">CSS</span>
+                    <span className="badge badge-pill badge-secondary">Bash</span>
+                    <span className="badge badge-pill badge-success">Git</span>
                     <span className="badge badge-pill badge-warning">Software Enginering</span>
                 </row><br />
             </VerticalTimelineElement>

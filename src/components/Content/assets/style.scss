@@ -1,14 +1,16 @@
 @import '../../../assets/scss/variables';
+@import "node_modules/react-image-gallery/styles/scss/image-gallery.scss";
+
 
 .myContent {
   h2 {
     font-size: calc(100% + 1vw + 1vh);
   }
 
-  .claimSection {
+  .timeline {
     font-size: 2rem;
 
-    .badge-danger, .badge-info, .badge-warning, .badge-success, .badge-dark, .badge-light {
+    .badge-danger, .badge-info, .badge-warning, .badge-success, .badge-dark, .badge-light, .badge-secondary {
       width: auto;
       max-height: 25px;
       font-size: 14px;
@@ -16,5 +18,21 @@
   }
   .vertical-timeline-element-icon svg {
     color: $greyLight ;
+  }
+
+  .icon svg {
+    color: $danger;
+  }
+
+  .hobbies {
+    .cyprusImg {
+      max-width: 40%;
+      height: auto;
+    }
+
+    .gamesImg {
+      max-width: 60%;
+      height: auto;
+    }
   }
 }
