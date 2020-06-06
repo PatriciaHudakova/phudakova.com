@@ -19,13 +19,13 @@ const MyTimeline = () => (
                     don't have to have the same bad experience twice.
                 </p>
                 <row>
-                    <span className="badge badge-pill badge-dark">REACT</span>
-                    <span className="badge badge-pill badge-info">SCSS</span>
-                    <span className="badge badge-pill badge-success">JSX</span>
-                    <span className="badge badge-pill badge-light">Authentication</span>
-                    <span className="badge badge-pill badge-warning">PostgreSQL</span>
-                    <span className="badge badge-pill badge-danger">APIs</span>
-                    <span className="badge badge-pill badge-success">Git</span>
+                    <span className="badge badge-pill badge-dark mr-2">REACT</span>
+                    <span className="badge badge-pill badge-info mr-2">SCSS</span>
+                    <span className="badge badge-pill badge-success mr-2">JSX</span>
+                    <span className="badge badge-pill badge-light mr-2">Authentication</span>
+                    <span className="badge badge-pill badge-warning mr-2">PostgreSQL</span>
+                    <span className="badge badge-pill badge-danger mr-2">APIs</span>
+                    <span className="badge badge-pill badge-success mr-2">Git</span>
                 </row><br />
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -34,35 +34,20 @@ const MyTimeline = () => (
                 iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
                 icon={<IoIosLaptop />}
             >
-                <h4 className="vertical-timeline-element-title font-weight-bold">phudakova.com v2.0</h4>
+                <h4 className="vertical-timeline-element-title font-weight-bold">phudakova.com</h4>
                 <h5 className="vertical-timeline-element-subtitle mt-1">Hobby Project</h5>
                 <p>
-                    A responsive, fully functional personal website with an entirely different feel created using REACT JS libary.
+                    A responsive, fully functional personal website with an entirely different feel created using REACT.
                 </p>
                 <row>
-                    <span className="badge badge-pill badge-dark">REACT</span>
-                    <span className="badge badge-pill badge-danger">Bootstrap</span>
-                    <span className="badge badge-pill badge-info">SCSS</span>
-                    <span className="badge badge-pill badge-success">JSX</span>
-                    <span className="badge badge-pill badge-warning">JS</span>
-                    <span className="badge badge-pill badge-success">Git</span>
-                </row><br />
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work align='left'"
-                date="May 2020"
-                iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
-                icon={<IoIosLaptop />}
-            >
-                <h4 className="vertical-timeline-element-title font-weight-bold">phudakova.com v1.0</h4>
-                <h5 className="vertical-timeline-element-subtitle mt-1">Hobby Project</h5>
-                <p>
-                    A simply static yet fully functional personal website.
-                </p>
-                <row>
-                    <span className="badge badge-pill badge-success">HTML</span>
-                    <span className="badge badge-pill badge-info">CSS</span>
-                    <span className="badge badge-pill badge-success">Git</span>
+                    <span className="badge badge-pill badge-dark mr-2">REACT</span>
+                    <span className="badge badge-pill badge-danger mr-2">Bootstrap</span>
+                    <span className="badge badge-pill badge-info mr-2">SCSS</span>
+                    <span className="badge badge-pill badge-success mr-2">JSX</span>
+                    <span className="badge badge-pill badge-warning mr-2">JS</span>
+                    <span className="badge badge-pill badge-success mr-2">HTML</span>
+                    <span className="badge badge-pill badge-info mr-2">CSS</span>
+                    <span className="badge badge-pill badge-success mr-2">Git</span>
                 </row><br />
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -78,10 +63,10 @@ const MyTimeline = () => (
                     with full create, edit, delete and reminder functionality.
                 </p>
                 <row>
-                    <span className="badge badge-pill badge-info">Golang</span>
-                    <span className="badge badge-pill badge-danger">APIs</span>
-                    <span className="badge badge-pill badge-warning">PostgreSQL</span>
-                    <span className="badge badge-pill badge-success">Git</span>
+                    <span className="badge badge-pill badge-info mr-2">Golang</span>
+                    <span className="badge badge-pill badge-danger mr-2">APIs</span>
+                    <span className="badge badge-pill badge-warning mr-2">PostgreSQL</span>
+                    <span className="badge badge-pill badge-success mr-2">Git</span>
                 </row><br />
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -93,18 +78,17 @@ const MyTimeline = () => (
                 <h4 className="vertical-timeline-element-title font-weight-bold">MSc Information Security</h4>
                 <h5 className="vertical-timeline-element-subtitle mt-2">Royal Holloway, University of London</h5>
                 <p>
-                    Final year project involved exploring web vulnerabilities and their mitigations using a test
-                    website specifically created for that purpose.
+                    Final year project involved exploring web vulnerabilities and their mitigations.
                 </p>
                 <row>
-                    <span className="badge badge-pill badge-dark">Django</span>
-                    <span className="badge badge-pill badge-success">HTML</span>
-                    <span className="badge badge-pill badge-info">CSS</span>
-                    <span className="badge badge-pill badge-light">Cryptography</span>
-                    <span className="badge badge-pill badge-danger">Web Security</span>
-                    <span className="badge badge-pill badge-warning">SQL</span>
-                    <span className="badge badge-pill badge-secondary">Bash</span>
-                    <span className="badge badge-pill badge-light">LaTex</span>
+                    <span className="badge badge-pill badge-dark mr-2">Django</span>
+                    <span className="badge badge-pill badge-success mr-2">HTML</span>
+                    <span className="badge badge-pill badge-info mr-2">CSS</span>
+                    <span className="badge badge-pill badge-light mr-2">Cryptography</span>
+                    <span className="badge badge-pill badge-danger mr-2">Web Security</span>
+                    <span className="badge badge-pill badge-warning mr-2">SQL</span>
+                    <span className="badge badge-pill badge-secondary mr-2">Bash</span>
+                    <span className="badge badge-pill badge-light mr-2">LaTex</span>
                 </row><br />
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -130,8 +114,10 @@ const MyTimeline = () => (
                 <h5 className="vertical-timeline-element-subtitle">Fire-Tech Camp</h5>
                 <p>
                     Delivering in person and remote courses for young people including
-                    Video Game Design, AR/VR and Arduino. During my time there, I’ve
-                    been entrusted with assisting with running of the camp.
+                    Video Game Design, AR/VR and Arduino. During my time there, aside from delivering courses, I’ve
+                    been entrusted with being responsible for the safety of all campers, dealing
+                    with parental enquiries and ensuring all tutors have have the right materials
+                    specific to their class.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -144,16 +130,15 @@ const MyTimeline = () => (
                 <h5 className="vertical-timeline-element-subtitle mt-2">Royal Holloway, University of London</h5>
                 <p>
                     Final year project involved creating a graph calculator with the following
-                    algorithms: Dijkstra's, Kruskal's, Hamiltonian and Vertex Colouring
-                    as an executable .jar file.
+                    algorithms: Dijkstra's, Kruskal's, Hamiltonian and Vertex Colouring.
                 </p>
                 <row>
-                    <span className="badge badge-pill badge-danger">Java</span>
-                    <span className="badge badge-pill badge-success">HTML</span>
-                    <span className="badge badge-pill badge-info">CSS</span>
-                    <span className="badge badge-pill badge-secondary">Bash</span>
-                    <span className="badge badge-pill badge-success">Git</span>
-                    <span className="badge badge-pill badge-warning">Software Enginering</span>
+                    <span className="badge badge-pill badge-danger mr-2">Java</span>
+                    <span className="badge badge-pill badge-success mr-2">HTML</span>
+                    <span className="badge badge-pill badge-info mr-2">CSS</span>
+                    <span className="badge badge-pill badge-secondary mr-2">Bash</span>
+                    <span className="badge badge-pill badge-success mr-2">Git</span>
+                    <span className="badge badge-pill badge-warning mr-2">Software Enginering</span>
                 </row><br />
             </VerticalTimelineElement>
         </VerticalTimeline>
