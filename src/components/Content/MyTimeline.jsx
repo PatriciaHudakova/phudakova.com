@@ -19,8 +19,8 @@ const MyTimeline = () => (
                     don't have to have the same bad experience twice.
                 </p>
                 <row>
-                    <span className="badge badge-pill badge-dark mr-2">REACT</span>
                     <span className="badge badge-pill badge-info mr-2">Golang</span>
+                    <span className="badge badge-pill badge-dark mr-2">REACT</span>
                     <span className="badge badge-pill badge-info mr-2">SCSS</span>
                     <span className="badge badge-pill badge-success mr-2">JSX</span>
                     <span className="badge badge-pill badge-light mr-2">Authentication</span>
