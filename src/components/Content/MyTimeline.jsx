@@ -1,6 +1,6 @@
 import React from "react";
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
-import {IoIosBriefcase, IoIosLaptop} from "react-icons/io";
+import {IoIosBriefcase, IoIosCamera, IoIosLaptop, IoIosLink} from "react-icons/io";
 import {FaGraduationCap} from "react-icons/fa";
 
 const MyTimeline = () => (
@@ -12,7 +12,7 @@ const MyTimeline = () => (
                 iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
                 icon={<IoIosLaptop />}
             >
-                <h4 className="vertical-timeline-element-title font-weight-bold">Restaurant Log</h4>
+                <a href="https://github.com/PatriciaHudakova/restaurantLog"><h4 className="vertical-timeline-element-title font-weight-bold">Restaurant Log <IoIosLink /></h4></a>
                 <h5 className="vertical-timeline-element-subtitle mt-1">Hobby Project</h5>
                 <p>
                     A platform for people to record, share and look up restaurant experiences so they
@@ -35,7 +35,7 @@ const MyTimeline = () => (
                 iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
                 icon={<IoIosLaptop />}
             >
-                <h4 className="vertical-timeline-element-title font-weight-bold">phudakova.com</h4>
+                <a href="https://github.com/PatriciaHudakova/phudakova.com"><h4 className="vertical-timeline-element-title font-weight-bold">phudakova.com  <IoIosLink /></h4></a>
                 <h5 className="vertical-timeline-element-subtitle mt-1">Hobby Project</h5>
                 <p>
                     A responsive, fully functional personal website with an entirely different feel created using REACT.
@@ -57,7 +57,7 @@ const MyTimeline = () => (
                 iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
                 icon={<IoIosLaptop />}
             >
-                <h4 className="vertical-timeline-element-title font-weight-bold">Telegram Event Bot</h4>
+                <a href="https://github.com/PatriciaHudakova/EventsBot"><h4 className="vertical-timeline-element-title font-weight-bold">Telegram Event Bot <IoIosLink /></h4></a>
                 <h5 className="vertical-timeline-element-subtitle mt-1">Hobby Project</h5>
                 <p>
                     A telegram bot created using Golang that helps you keep track of your scheduled events

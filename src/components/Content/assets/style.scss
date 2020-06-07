@@ -27,46 +27,16 @@
   .hobbies {
     * {box-sizing: border-box}
 
-    .overlay {
+    .description {
       width: 100%;
       top: 0; left: 0; right: 0; bottom: 0;
-      background: rgb(0, 0, 0);
-      background: rgba(0, 0, 0, 0.5);
-      transition: .5s ease;
-      opacity:0;
+      background: $danger;
+      background: $danger;
+      opacity: 0.8;
       color: white;
       font-size: 1rem;
       padding: 20px;
       text-align: center;
-    }
-
-    .cyprus:hover .overlay {
-      position: relative;
-      opacity: 1;
-    }
-    .games:hover .overlay {
-      position: relative;
-      opacity: 1;
-    }
-    .summer:hover .overlay {
-      position: relative;
-      opacity: 1;
-    }
-    .mum:hover .overlay {
-      position: relative;
-      opacity: 1;
-    }
-    .food:hover .overlay {
-      position: relative;
-      opacity: 1;
-    }
-    .scotland:hover .overlay {
-      position: relative;
-      opacity: 1;
-    }
-    .boba:hover .overlay {
-      position: relative;
-      opacity: 1;
     }
   }
 }
