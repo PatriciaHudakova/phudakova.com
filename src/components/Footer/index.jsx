@@ -29,7 +29,7 @@ class Footer extends React.Component {
     render() {
         return (
             <footer
-                className={classnames('fixed-bottom col-xs-7', {
+                className={classnames('fixed-bottom col-xs-7 sticky="bottom"', {
                     'fixed-bottom--hidden': this.state.visible
                 })}
             >
