@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from 'reactstrap';
+import {Row, Col } from 'reactstrap';
 import cyprus from "./assets/img/cyprus.jpg";
 import games from "./assets/img/games.jpeg";
 import summer from "./assets/img/summer.jpg";
@@ -7,11 +7,12 @@ import food from "./assets/img/food.jpeg";
 import boba from "./assets/img/boba.jpeg";
 import scotland from "./assets/img/scotland.jpg";
 import mum from "./assets/img/mum.jpeg";
+import { SRLWrapper } from "simple-react-lightbox";
 
 const MyHobbies = () => (
     <>
         <div className='hobbies'>
-            <Container>
+            <SRLWrapper>
                 <Row>
                     <Col xs={12} sm={{ size: 6, order: 1}} md={{size:4, order: 1}}>
                         <picture className='cyprus center-block mt-5 w-100'>
@@ -60,7 +61,7 @@ const MyHobbies = () => (
                         </picture>
                     </Col>
                 </Row>
-            </Container>
+            </SRLWrapper>
         </div>
         <br />
     </>

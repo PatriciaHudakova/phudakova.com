@@ -6,7 +6,7 @@ const StickyButton = () => {
     const [visible, setVisible] = useState(false)
 
     function handleScroll() {
-        setVisible(450 < window.pageYOffset)
+        setVisible(500 < window.pageYOffset)
     }
 
     useEffect(() => {

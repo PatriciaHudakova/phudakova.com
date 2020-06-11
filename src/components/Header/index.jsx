@@ -1,7 +1,7 @@
 import React from 'react';
 import {Row, Col, Container} from 'reactstrap';
 import './assets/style.scss'
-import profile from './assets/img/profile.png'
+import profileSq from './assets/img/profileSq.jpg'
 
 const Header = props => {
     return (
@@ -10,7 +10,7 @@ const Header = props => {
                 <Row>
                     <Col xs={12} sm={{size:12, order: 1}} md={{size:4, order: 2, offset: 1}} className='text-sm-right text-center'>
                         <picture className='center-block mt-5 w-100'>
-                            <img src={profile} className='img-responsive w-100 p-4' alt='Responsive image' />
+                            <img src={profileSq} className='profile img-responsive w-100 p-4' alt='Responsive image' />
                         </picture>
                     </Col>
 

@@ -17,7 +17,7 @@
     }
   }
   .vertical-timeline-element-icon svg {
-    color: $greyLight ;
+    color: black ;
   }
 
   .icon svg {
@@ -30,8 +30,7 @@
     .description {
       width: 100%;
       top: 0; left: 0; right: 0; bottom: 0;
-      background: $danger;
-      background: $danger;
+      background: $fontDefault;
       opacity: 0.8;
       color: white;
       font-size: 1rem;

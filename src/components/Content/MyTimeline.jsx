@@ -1,6 +1,6 @@
 import React from "react";
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
-import {IoIosBriefcase, IoIosCamera, IoIosLaptop, IoIosLink} from "react-icons/io";
+import {IoIosBriefcase, IoIosLaptop, IoIosLink} from "react-icons/io";
 import {FaGraduationCap} from "react-icons/fa";
 
 const MyTimeline = () => (
@@ -9,7 +9,7 @@ const MyTimeline = () => (
             <VerticalTimelineElement
                 className="vertical-timeline-element--work align='left'"
                 date="in progress"
-                iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
+                iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
                 icon={<IoIosLaptop />}
             >
                 <a href="https://github.com/PatriciaHudakova/restaurantLog"><h4 className="vertical-timeline-element-title font-weight-bold">Restaurant Log <IoIosLink /></h4></a>
@@ -32,7 +32,7 @@ const MyTimeline = () => (
             <VerticalTimelineElement
                 className="vertical-timeline-element--work align='left'"
                 date="June 2020"
-                iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
+                iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
                 icon={<IoIosLaptop />}
             >
                 <a href="https://github.com/PatriciaHudakova/phudakova.com"><h4 className="vertical-timeline-element-title font-weight-bold">phudakova.com  <IoIosLink /></h4></a>
@@ -54,7 +54,7 @@ const MyTimeline = () => (
             <VerticalTimelineElement
                 className="vertical-timeline-element--work align='left'"
                 date="April 2020"
-                iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
+                iconStyle={{ background: 'rgba(184, 179, 179, 1)' }}
                 icon={<IoIosLaptop />}
             >
                 <a href="https://github.com/PatriciaHudakova/EventsBot"><h4 className="vertical-timeline-element-title font-weight-bold">Telegram Event Bot <IoIosLink /></h4></a>
@@ -73,7 +73,7 @@ const MyTimeline = () => (
             <VerticalTimelineElement
                 className="vertical-timeline-element--work align='left'"
                 date="2018 - 2020"
-                iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
+                iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
                 icon={<FaGraduationCap />}
             >
                 <h4 className="vertical-timeline-element-title font-weight-bold">MSc Information Security</h4>
@@ -95,7 +95,7 @@ const MyTimeline = () => (
             <VerticalTimelineElement
                 className="vertical-timeline-element--work align='left'"
                 date="2018 - 2019"
-                iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
+                iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
                 icon={<IoIosBriefcase />}
             >
                 <h4 className="vertical-timeline-element-title font-weight-bold">Teaching Assistant</h4>
@@ -108,7 +108,7 @@ const MyTimeline = () => (
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="2017 - present"
-                iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
+                iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
                 icon={<IoIosBriefcase />}
             >
                 <h4 className="vertical-timeline-element-title font-weight-bold">Tutor</h4>
@@ -124,7 +124,7 @@ const MyTimeline = () => (
             <VerticalTimelineElement
                 className="vertical-timeline-element--work mb-5"
                 date="2015 - 2018"
-                iconStyle={{ background: 'rgb(217, 83, 79)', color: '#d9534f' }}
+                iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
                 icon={<FaGraduationCap />}
             >
                 <h4 className="vertical-timeline-element-title font-weight-bold">BSc Computer Science and Mathematics</h4>

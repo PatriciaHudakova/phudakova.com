@@ -2,9 +2,9 @@ import React from "react";
 import {Container} from 'reactstrap'
 import MyTimeline from "./MyTimeline";
 import MyHobbies from "./MyHobbies"
-import {IoIosCamera} from "react-icons/io";
 import './assets/style.scss'
 import 'react-vertical-timeline-component/style.min.css';
+import SimpleReactLightbox from 'simple-react-lightbox';
 
 const Content = props => {
     return (
@@ -18,9 +18,11 @@ const Content = props => {
             <section className='mt-4 timeline' >
                 <MyTimeline />
             </section>
-            <h2 className='icon row-cols-1 mt-5'><IoIosCamera /> Outside of work <IoIosCamera /></h2><br />
+            <h2 className='icon row-cols-1 mt-5'>Outside of work</h2><br />
             <section className='mt-4 timeline' >
-                <MyHobbies />
+                <SimpleReactLightbox>
+                    <MyHobbies />
+                </SimpleReactLightbox>
             </section>
         </Container>
     )
