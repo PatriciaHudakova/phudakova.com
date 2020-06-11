@@ -18,7 +18,7 @@ const MyTimeline = () => (
                     A platform for people to record, share and look up restaurant experiences so they
                     don't have to have the same bad experience twice.
                 </p>
-                <row>
+                <div>
                     <span className="badge badge-pill badge-info mr-2">Golang</span>
                     <span className="badge badge-pill badge-dark mr-2">REACT</span>
                     <span className="badge badge-pill badge-info mr-2">SCSS</span>
@@ -27,7 +27,7 @@ const MyTimeline = () => (
                     <span className="badge badge-pill badge-warning mr-2">PostgreSQL</span>
                     <span className="badge badge-pill badge-danger mr-2">APIs</span>
                     <span className="badge badge-pill badge-success mr-2">Git</span>
-                </row><br />
+                </div><br />
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work align='left'"
@@ -40,7 +40,7 @@ const MyTimeline = () => (
                 <p>
                     A responsive, fully functional personal website with an entirely different feel created using REACT.
                 </p>
-                <row>
+                <div>
                     <span className="badge badge-pill badge-dark mr-2">REACT</span>
                     <span className="badge badge-pill badge-danger mr-2">Bootstrap</span>
                     <span className="badge badge-pill badge-info mr-2">SCSS</span>
@@ -49,7 +49,7 @@ const MyTimeline = () => (
                     <span className="badge badge-pill badge-success mr-2">HTML</span>
                     <span className="badge badge-pill badge-info mr-2">CSS</span>
                     <span className="badge badge-pill badge-success mr-2">Git</span>
-                </row><br />
+                </div><br />
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work align='left'"
@@ -63,12 +63,12 @@ const MyTimeline = () => (
                     A telegram bot created using Golang that helps you keep track of your scheduled events
                     with full create, edit, delete and reminder functionality.
                 </p>
-                <row>
+                <div>
                     <span className="badge badge-pill badge-info mr-2">Golang</span>
                     <span className="badge badge-pill badge-danger mr-2">APIs</span>
                     <span className="badge badge-pill badge-warning mr-2">PostgreSQL</span>
                     <span className="badge badge-pill badge-success mr-2">Git</span>
-                </row><br />
+                </div><br />
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work align='left'"
@@ -81,7 +81,7 @@ const MyTimeline = () => (
                 <p>
                     Final year project involved exploring web vulnerabilities and their mitigations.
                 </p>
-                <row>
+                <div>
                     <span className="badge badge-pill badge-dark mr-2">Django</span>
                     <span className="badge badge-pill badge-success mr-2">HTML</span>
                     <span className="badge badge-pill badge-info mr-2">CSS</span>
@@ -90,7 +90,7 @@ const MyTimeline = () => (
                     <span className="badge badge-pill badge-warning mr-2">SQL</span>
                     <span className="badge badge-pill badge-secondary mr-2">Bash</span>
                     <span className="badge badge-pill badge-light mr-2">LaTex</span>
-                </row><br />
+                </div><br />
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work align='left'"
@@ -133,14 +133,14 @@ const MyTimeline = () => (
                     Final year project involved creating a graph calculator with the following
                     algorithms: Dijkstra's, Kruskal's, Hamiltonian and Vertex Colouring.
                 </p>
-                <row>
+                <div>
                     <span className="badge badge-pill badge-danger mr-2">Java</span>
                     <span className="badge badge-pill badge-success mr-2">HTML</span>
                     <span className="badge badge-pill badge-info mr-2">CSS</span>
                     <span className="badge badge-pill badge-secondary mr-2">Bash</span>
                     <span className="badge badge-pill badge-success mr-2">Git</span>
                     <span className="badge badge-pill badge-warning mr-2">Software Enginering</span>
-                </row><br />
+                </div><br />
             </VerticalTimelineElement>
         </VerticalTimeline>
     </div>
