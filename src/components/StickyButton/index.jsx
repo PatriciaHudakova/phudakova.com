@@ -1,0 +1,24 @@
+import React, {useState, useEffect}  from 'react';
+import classnames from 'classnames';
+import './assets/style.scss'
+
+const StickyButton = () => {
+
+    const [visible, setVisible] = useState(false)
+
+    function handleScroll() {
+        setVisible(450 > window.pageYOffset)
+    }
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll());
+    }, []);
+
+    return (
+        <a href='mailto:phudakova7@gmail.com' className={'btn btn-danger btn-lg col-xs-7 stickyButton ' + (visible ? 'fixed-bottom' : 'd-none')}>
+            Get In Touch!
+        </a>
+    )
+}
+
+export default StickyButton

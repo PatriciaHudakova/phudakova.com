@@ -43,6 +43,11 @@
     top: -10rem;
     right:-3rem;
     opacity: 0.07;
+    @media screen and (max-width: 760px) {
+
+      display: none;
+
+    }
   ;
   }
 }

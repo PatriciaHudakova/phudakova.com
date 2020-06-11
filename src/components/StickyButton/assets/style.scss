@@ -1,0 +1,10 @@
+@import "../../../assets/scss/variables";
+
+.stickyButton {
+  width: 12rem;
+  z-index: 999;
+  float: right;
+  right: 2rem;
+  left: auto;
+  bottom: 4rem;
+}

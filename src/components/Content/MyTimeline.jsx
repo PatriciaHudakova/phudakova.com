@@ -4,7 +4,7 @@ import {IoIosBriefcase, IoIosCamera, IoIosLaptop, IoIosLink} from "react-icons/i
 import {FaGraduationCap} from "react-icons/fa";
 
 const MyTimeline = () => (
-    <>
+    <div className='timeline'>
         <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work align='left'"
@@ -143,7 +143,7 @@ const MyTimeline = () => (
                 </row><br />
             </VerticalTimelineElement>
         </VerticalTimeline>
-    </>
+    </div>
 );
 
 export default MyTimeline;
