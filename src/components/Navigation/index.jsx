@@ -8,7 +8,7 @@ import {
 } from 'reactstrap';
 import {IoLogoGithub, IoIosMail, IoLogoLinkedin, IoIosPaper, IoLogoFacebook} from 'react-icons/io'
 import './assets/style.scss'
-import CV from '../../assets/docs/CV.pdf'
+import CVPS from '../../assets/docs/CVPS.pdf'
 
 
 const Navigation = props => {
@@ -30,7 +30,7 @@ const Navigation = props => {
                         <NavLink href="mailto:phudakova7@gmail.com"><IoIosMail /></NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href={CV} target='_blank'><IoIosPaper /></NavLink>
+                        <NavLink href={CVPS} target='_blank'><IoIosPaper /></NavLink>
                     </NavItem>
                 </Nav>
             </Navbar>

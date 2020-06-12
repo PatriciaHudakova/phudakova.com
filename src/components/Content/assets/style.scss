@@ -20,26 +20,27 @@
     color: black ;
   }
 
-  .icon svg {
-    color: $danger;
-  }
-
   .hobbies {
     * {box-sizing: border-box}
+    overflow-x: hidden;
+
+    .img-responsive {
+      border-radius: 40px;
+    }
 
     .description {
+      border-radius: 30px;
       width: 100%;
       top: 0; left: 0; right: 0; bottom: 0;
-      background: $fontDefault;
-      opacity: 0.8;
-      color: white;
+      background: $greyLight;
+      color: $primary;
       font-size: 1rem;
-      padding: 20px;
+      padding: 15px;
       text-align: center;
     }
   }
-}
 
-.timeline {
-  overflow-y: hidden;
+  .timeline {
+    overflow-y: hidden;
+  }
 }

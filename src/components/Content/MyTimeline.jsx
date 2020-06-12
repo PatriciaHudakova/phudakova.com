@@ -21,7 +21,7 @@ const MyTimeline = () => (
                 <div>
                     <span className="badge badge-pill badge-info mr-2">Golang</span>
                     <span className="badge badge-pill badge-dark mr-2">REACT</span>
-                    <span className="badge badge-pill badge-info mr-2">SCSS</span>
+                    <span className="badge badge-pill badge-info mr-2">SASS</span>
                     <span className="badge badge-pill badge-success mr-2">JSX</span>
                     <span className="badge badge-pill badge-light mr-2">Authentication</span>
                     <span className="badge badge-pill badge-warning mr-2">PostgreSQL</span>
@@ -43,7 +43,7 @@ const MyTimeline = () => (
                 <div>
                     <span className="badge badge-pill badge-dark mr-2">REACT</span>
                     <span className="badge badge-pill badge-danger mr-2">Bootstrap</span>
-                    <span className="badge badge-pill badge-info mr-2">SCSS</span>
+                    <span className="badge badge-pill badge-info mr-2">SASS</span>
                     <span className="badge badge-pill badge-success mr-2">JSX</span>
                     <span className="badge badge-pill badge-warning mr-2">JS</span>
                     <span className="badge badge-pill badge-success mr-2">HTML</span>

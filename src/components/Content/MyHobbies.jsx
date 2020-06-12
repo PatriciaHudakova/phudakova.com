@@ -16,7 +16,7 @@ const MyHobbies = () => (
                 <Row>
                     <Col xs={12} sm={{ size: 6, order: 1}} md={{size:4, order: 1}}>
                         <picture className='cyprus center-block mt-5 w-100'>
-                            <img src={cyprus} className='img-responsive w-100 p-4' alt=''  />
+                            <img src={cyprus} className='img-responsive w-100 p-4'  alt=''  />
                             <div className="description">Travelled to Cyprus</div>
                         </picture>
                     </Col>
@@ -65,7 +65,6 @@ const MyHobbies = () => (
         </div>
         <br />
     </>
-
 );
 
 export default MyHobbies
