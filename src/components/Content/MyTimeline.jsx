@@ -12,8 +12,17 @@ const MyTimeline = () => (
                 iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
                 icon={<IoIosBriefcase />}
             >
-                <h4 className="vertical-timeline-element-title font-weight-bold">Consultant</h4>
+                <h4 className="vertical-timeline-element-title font-weight-bold">Future Networks Consultant</h4>
                 <h5 className="vertical-timeline-element-subtitle">Net Reply</h5>
+                <p>
+                    My main focus as a consultant centres around any future networking concepts such as 5G, SDN and NFV while contributing to the development of client projects in Golang.
+                </p>
+                <div>
+                    <span className="badge badge-pill badge-info mr-2">Golang</span>
+                    <span className="badge badge-pill badge-success mr-2">5G</span>
+                    <span className="badge badge-pill badge-warning mr-2">SDN</span>
+                    <span className="badge badge-pill badge-danger mr-2">NFV</span>
+                </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work align='left'"
@@ -113,6 +122,10 @@ const MyTimeline = () => (
                     Assisting with OOP and Software Design labs throughout the year involving
                     explaining concepts, helping with set-up and marking.
                 </p>
+                <div>
+                    <span className="badge badge-pill badge-danger mr-2">Java</span>
+                    <span className="badge badge-pill badge-secondary mr-2">Software Design</span>
+                </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -129,6 +142,10 @@ const MyTimeline = () => (
                     with parental enquiries and ensuring all tutors have have the right materials
                     specific to their class.
                 </p>
+                <div>
+                    <span className="badge badge-pill badge-danger mr-2">Java</span>
+                    <span className="badge badge-pill badge-warning mr-2">AR/VR</span>
+                </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work mb-5"
