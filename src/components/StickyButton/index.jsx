@@ -15,7 +15,7 @@ const StickyButton = () => {
     }, [handleScroll]);
 
     return (
-        <a href='mailto:phudakova7@gmail.com' className={'btn btn-danger btn-lg col-xs-7 stickyButton ' + (visible ? 'fixed-bottom' : 'd-none')}>
+        <a href='mailto:phudakova7@gmail.com' className={'btn btn-warning btn-lg font-weight-bold col-xs-7 stickyButton ' + (visible ? 'fixed-bottom' : 'd-none')}>
             Get In Touch!
         </a>
     )

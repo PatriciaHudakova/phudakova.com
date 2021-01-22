@@ -6,9 +6,8 @@ import {
     NavItem,
     NavLink,
 } from 'reactstrap';
-import {IoLogoGithub, IoIosMail, IoLogoLinkedin, IoIosPaper, IoLogoFacebook} from 'react-icons/io'
+import {IoLogoGithub, IoIosMail, IoLogoLinkedin, IoIosPaper, IoIosGift} from 'react-icons/io'
 import './assets/style.scss'
-import CVPS from '../../assets/docs/CVPS.pdf'
 
 
 const Navigation = props => {
@@ -24,13 +23,13 @@ const Navigation = props => {
                         <NavLink href="https://www.linkedin.com/in/patricia-hudakova-395729150/" target='_blank'><IoLogoLinkedin /></NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="https://www.facebook.com/patricia.hudakova.438" target='_blank'><IoLogoFacebook /></NavLink>
-                    </NavItem>
-                    <NavItem>
                         <NavLink href="mailto:phudakova7@gmail.com"><IoIosMail /></NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href={CVPS} target='_blank'><IoIosPaper /></NavLink>
+                        <NavLink href={""} target='_blank'><IoIosPaper /></NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="https://www.moonsift.com/collection/patricia_hudakova2021/BCuzIcFiEUEzfkaw3p9D" target='_blank'><IoIosGift /></NavLink>
                     </NavItem>
                 </Nav>
             </Navbar>

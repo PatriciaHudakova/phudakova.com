@@ -22,6 +22,9 @@ const MyTimeline = () => (
                     <span className="badge badge-pill badge-success mr-2">5G</span>
                     <span className="badge badge-pill badge-warning mr-2">SDN</span>
                     <span className="badge badge-pill badge-danger mr-2">NFV</span>
+                    <span className="badge badge-pill badge-info mr-2">Docker</span>
+                    <span className="badge badge-pill badge-secondary mr-2">Kubernetes</span>
+                    <span className="badge badge-pill badge-dark mr-2">Helm</span>
                 </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
