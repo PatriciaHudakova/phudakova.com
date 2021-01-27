@@ -7,6 +7,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
+    "mdbreact": "^5.0.1",
     "node-sass": "^4.14.1",
     "raf": "^3.4.1",
     "react": "^16.13.1",
@@ -18,7 +19,8 @@
     "react-scripts": "3.4.1",
     "react-vertical-timeline-component": "^3.0.0",
     "reactstrap": "^8.4.1",
-    "simple-react-lightbox": "^3.1.2-3"
+    "simple-react-lightbox": "^3.1.2-3",
+    "startbootstrap-clean-blog": "^5.0.10"
   },
   "scripts": {
     "start": "react-scripts start",

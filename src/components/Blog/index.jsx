@@ -1,10 +1,13 @@
 import React from "react";
+import Navigation_blog from "../Navigation_blog";
+import SearchBar from "../SearchBar";
 
 const Blog = props => {
     return(
-        <p>
-            In Progress...
-        </p>
+        <>
+            <Navigation_blog />
+            <SearchBar />
+        </>
     )
 }
 

@@ -29,29 +29,6 @@ const MyTimeline = () => (
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work align='left'"
-                date="in progress"
-                iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
-                icon={<IoIosLaptop />}
-            >
-                <a href="https://github.com/PatriciaHudakova/restaurantLog"><h4 className="vertical-timeline-element-title font-weight-bold">Restaurant Log <IoIosLink /></h4></a>
-                <h5 className="vertical-timeline-element-subtitle mt-1">Hobby Project</h5>
-                <p>
-                    A platform for people to record, share and look up restaurant experiences so they
-                    don't have to have the same bad experience twice.
-                </p>
-                <div>
-                    <span className="badge badge-pill badge-info mr-2">Golang</span>
-                    <span className="badge badge-pill badge-dark mr-2">REACT</span>
-                    <span className="badge badge-pill badge-info mr-2">SASS</span>
-                    <span className="badge badge-pill badge-success mr-2">JSX</span>
-                    <span className="badge badge-pill badge-light mr-2">Authentication</span>
-                    <span className="badge badge-pill badge-warning mr-2">PostgreSQL</span>
-                    <span className="badge badge-pill badge-danger mr-2">APIs</span>
-                    <span className="badge badge-pill badge-success mr-2">Git</span>
-                </div><br />
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work align='left'"
                 date="June 2020"
                 iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
                 icon={<IoIosLaptop />}
