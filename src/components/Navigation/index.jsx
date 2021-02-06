@@ -26,7 +26,7 @@ const Navigation = props => {
                         <NavLink href="mailto:phudakova7@gmail.com"><IoIosMail /></NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/blog" target='_blank'><IoIosPaper /></NavLink>
+                        <NavLink href="https://medium.com/@phudakova7" target='_blank'><IoIosPaper /></NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href="https://www.moonsift.com/collection/patricia_hudakova2021/BCuzIcFiEUEzfkaw3p9D" target='_blank'><IoIosGift /></NavLink>

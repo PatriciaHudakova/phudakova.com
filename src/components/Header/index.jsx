@@ -18,7 +18,7 @@ const Header = props => {
                         <div className="text text-lg-left text-center">
                             <h1 className='h1'>Hey There!</h1><br />
                             <h2 className='h4'>I'm Patricia, and I'm a Future Networks Consultant at Net Reply UK!</h2><br /><br /><br />
-                            <a href='mailto:phudakova7@gmail.com' className='btn btn-outline-warning btn-xl'>
+                            <a href='mailto:phudakova7@gmail.com' className='btn btn-outline-info btn-xl'>
                                 Get In Touch!
                             </a>
                         </div>

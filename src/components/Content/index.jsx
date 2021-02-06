@@ -12,7 +12,7 @@ const Content = props => {
             <h2 className='row-cols-1 mt-5'>What do I do?</h2><br />
             <h5 className='row-cols-1 ml-5 mr-5'>
                 When I'm not working, I enjoy writing blogs about new concepts I came across and working on hobby projects, feel free to
-                check them out on my timeline below!
+                check them out!
             </h5>
 
             <section className='mt-4 timeline' >
