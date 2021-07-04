@@ -108,26 +108,6 @@ const MyTimeline = () => (
                 </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                date="2017 - 2020"
-                iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
-                icon={<IoIosBriefcase />}
-            >
-                <h4 className="vertical-timeline-element-title font-weight-bold">Tutor</h4>
-                <h5 className="vertical-timeline-element-subtitle">Fire-Tech Camp</h5>
-                <p>
-                    Delivering in person and remote courses for young people including
-                    Video Game Design, AR/VR and Arduino. During my time there, aside from delivering courses, I’ve
-                    been entrusted with being responsible for the safety of all campers, dealing
-                    with parental enquiries and ensuring all tutors have have the right materials
-                    specific to their class.
-                </p>
-                <div>
-                    <span className="badge badge-pill badge-danger mr-2">Java</span>
-                    <span className="badge badge-pill badge-warning mr-2">AR/VR</span>
-                </div>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
                 className="vertical-timeline-element--work mb-5"
                 date="2015 - 2018"
                 iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
