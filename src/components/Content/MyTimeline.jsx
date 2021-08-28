@@ -8,7 +8,24 @@ const MyTimeline = () => (
         <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="July 2020 - present"
+                date="August 2021 - Present"
+                iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
+                icon={<IoIosBriefcase />}
+            >
+                <h4 className="vertical-timeline-element-title font-weight-bold">Backend Developer</h4>
+                <h5 className="vertical-timeline-element-subtitle">Perfect Ward</h5>
+                <div>
+                    <span className="badge badge-pill badge-danger mr-2">Ruby</span>
+                    <span className="badge badge-pill badge-warning mr-2">Rails</span>
+                    <span className="badge badge-pill badge-success mr-2">AWS</span>
+                    <span className="badge badge-pill badge-dark mr-2">Heroku</span>
+                    <span className="badge badge-pill badge-info mr-2">Docker</span>
+                    <span className="badge badge-pill badge-warning mr-2">PostgreSQL</span>
+                </div>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="July 2020 - July 2021"
                 iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
                 icon={<IoIosBriefcase />}
             >
@@ -46,25 +63,6 @@ const MyTimeline = () => (
                     <span className="badge badge-pill badge-warning mr-2">JS</span>
                     <span className="badge badge-pill badge-success mr-2">HTML</span>
                     <span className="badge badge-pill badge-info mr-2">CSS</span>
-                    <span className="badge badge-pill badge-success mr-2">Git</span>
-                </div><br />
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work align='left'"
-                date="April 2020"
-                iconStyle={{ background: 'rgba(184, 179, 179, 1)' }}
-                icon={<IoIosLaptop />}
-            >
-                <a href="https://github.com/PatriciaHudakova/EventsBot"><h4 className="vertical-timeline-element-title font-weight-bold">Telegram Event Bot <IoIosLink /></h4></a>
-                <h5 className="vertical-timeline-element-subtitle mt-1">Hobby Project</h5>
-                <p>
-                    A telegram bot created using Golang that helps you keep track of your scheduled events
-                    with full create, edit, delete and reminder functionality.
-                </p>
-                <div>
-                    <span className="badge badge-pill badge-info mr-2">Golang</span>
-                    <span className="badge badge-pill badge-danger mr-2">APIs</span>
-                    <span className="badge badge-pill badge-warning mr-2">PostgreSQL</span>
                     <span className="badge badge-pill badge-success mr-2">Git</span>
                 </div><br />
             </VerticalTimelineElement>
