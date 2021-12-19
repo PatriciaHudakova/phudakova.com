@@ -13,10 +13,11 @@ const MyTimeline = () => (
                 icon={<IoIosBriefcase />}
             >
                 <h4 className="vertical-timeline-element-title font-weight-bold">Backend Developer</h4>
-                <h5 className="vertical-timeline-element-subtitle">Perfect Ward</h5>
+                <h5 className="vertical-timeline-element-subtitle">Tendable</h5>
                 <div>
                     <span className="badge badge-pill badge-danger mr-2">Ruby</span>
                     <span className="badge badge-pill badge-warning mr-2">Rails</span>
+                    <span className="badge badge-pill badge-secondary mr-2">Typescript</span>
                     <span className="badge badge-pill badge-success mr-2">AWS</span>
                     <span className="badge badge-pill badge-dark mr-2">Heroku</span>
                     <span className="badge badge-pill badge-info mr-2">Docker</span>
