@@ -16,11 +16,8 @@ const Header = props => {
 
                     <Col xs={12} sm={{size:12, order: 2}} md={{size:7, order: 1}}>
                         <div className="text text-lg-left text-center">
-                            <h1 className='h1'>Hey There!</h1><br />
-                            <h2 className='h4'>I'm Patricia, and I'm a Backend developer at Tendable!</h2><br /><br /><br />
-                            <a href='mailto:phudakova7@gmail.com' className='btn btn-outline-info btn-l'>
-                                Get In Touch!
-                            </a>
+                            <h1 className='h1'>Hey There!</h1><br /><br />
+                            <h2 className='h4'>I'm Patricia, and I'm a Software Engineer!</h2>
                         </div>
                     </Col>
                 </Row>

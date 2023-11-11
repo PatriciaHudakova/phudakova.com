@@ -6,7 +6,7 @@ import {
     NavItem,
     NavLink,
 } from 'reactstrap';
-import {IoLogoGithub, IoIosMail, IoLogoLinkedin, IoIosPaper, IoIosGift} from 'react-icons/io'
+import {IoLogoGithub, IoIosMail, IoLogoLinkedin} from 'react-icons/io'
 import './assets/style.scss'
 
 
@@ -24,12 +24,6 @@ const Navigation = props => {
                     </NavItem>
                     <NavItem>
                         <NavLink href="mailto:phudakova7@gmail.com"><IoIosMail /></NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="https://medium.com/@phudakova" target='_blank'><IoIosPaper /></NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="https://www.moonsift.com/collection/patricia_hudakova2021/BCuzIcFiEUEzfkaw3p9D" target='_blank'><IoIosGift /></NavLink>
                     </NavItem>
                 </Nav>
             </Navbar>

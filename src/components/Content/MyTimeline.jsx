@@ -12,16 +12,19 @@ const MyTimeline = () => (
                 iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
                 icon={<IoIosBriefcase />}
             >
-                <h4 className="vertical-timeline-element-title font-weight-bold">Backend Developer</h4>
+                <h4 className="vertical-timeline-element-title font-weight-bold">Software Engineer</h4>
                 <h5 className="vertical-timeline-element-subtitle">Tendable</h5>
+                <p>
+                    My main contributions included designing and developing new features, integrating third party software as well as maintaining and bug fixing our main API, in our mostly monolythic based architecture.
+                </p>
                 <div>
                     <span className="badge badge-pill badge-danger mr-2">Ruby</span>
                     <span className="badge badge-pill badge-warning mr-2">Rails</span>
-                    <span className="badge badge-pill badge-secondary mr-2">Typescript</span>
+                    <span className="badge badge-pill badge-dark mr-2">Sidekiq</span>
                     <span className="badge badge-pill badge-success mr-2">AWS</span>
-                    <span className="badge badge-pill badge-dark mr-2">Heroku</span>
                     <span className="badge badge-pill badge-info mr-2">Docker</span>
-                    <span className="badge badge-pill badge-warning mr-2">PostgreSQL</span>
+                    <span className="badge badge-pill badge-light mr-2">PostgreSQL</span>
+                    <span className="badge badge-pill badge-secondary mr-2">Typescript</span>
                 </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -30,16 +33,14 @@ const MyTimeline = () => (
                 iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
                 icon={<IoIosBriefcase />}
             >
-                <h4 className="vertical-timeline-element-title font-weight-bold">Future Networks Consultant</h4>
+                <h4 className="vertical-timeline-element-title font-weight-bold">Consultant Developer</h4>
                 <h5 className="vertical-timeline-element-subtitle">Net Reply</h5>
                 <p>
-                    My main focus as a consultant centres around any future networking concepts such as 5G, SDN and NFV while contributing to the development of client projects in Golang.
+                    My main focus as a consultant centred around future networking concepts such as 5G, SDN and NFV while contributing to the development of client defined projects using Go.
                 </p>
                 <div>
                     <span className="badge badge-pill badge-info mr-2">Golang</span>
                     <span className="badge badge-pill badge-success mr-2">5G</span>
-                    <span className="badge badge-pill badge-warning mr-2">SDN</span>
-                    <span className="badge badge-pill badge-danger mr-2">NFV</span>
                     <span className="badge badge-pill badge-info mr-2">Docker</span>
                     <span className="badge badge-pill badge-secondary mr-2">Kubernetes</span>
                     <span className="badge badge-pill badge-dark mr-2">Helm</span>
@@ -54,7 +55,7 @@ const MyTimeline = () => (
                 <a href="https://github.com/PatriciaHudakova/phudakova.com"><h4 className="vertical-timeline-element-title font-weight-bold">phudakova.com  <IoIosLink /></h4></a>
                 <h5 className="vertical-timeline-element-subtitle mt-1">Hobby Project</h5>
                 <p>
-                    A responsive, fully functional personal website with an entirely different feel created using REACT.
+                    A responsive, fully functional personal website created for fun.
                 </p>
                 <div>
                     <span className="badge badge-pill badge-dark mr-2">REACT</span>
@@ -76,7 +77,7 @@ const MyTimeline = () => (
                 <h4 className="vertical-timeline-element-title font-weight-bold">MSc Information Security</h4>
                 <h5 className="vertical-timeline-element-subtitle mt-2">Royal Holloway, University of London</h5>
                 <p>
-                    Final year project involved exploring web vulnerabilities and their mitigations.
+                    Final year project involved exploring web vulnerabilities and their possible mitigations.
                 </p>
                 <div>
                     <span className="badge badge-pill badge-dark mr-2">Django</span>
