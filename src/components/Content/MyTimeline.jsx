@@ -8,7 +8,20 @@ const MyTimeline = () => (
         <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="August 2021 - Present"
+                date="January 2024 - Present"
+                iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
+                icon={<IoIosBriefcase />}
+            >
+                <h4 className="vertical-timeline-element-title font-weight-bold">Software Engineer</h4>
+                <h5 className="vertical-timeline-element-subtitle">Starling Bank</h5>
+                <div>
+                    <span className="badge badge-pill badge-danger mr-2">Java</span>
+                    <span className="badge badge-pill badge-light mr-2">PostgreSQL</span>
+                </div>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="August 2021 - January 2024"
                 iconStyle={{ background: 'rgba(184, 179, 179, 1)'}}
                 icon={<IoIosBriefcase />}
             >
