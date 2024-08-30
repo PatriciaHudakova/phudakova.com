@@ -11,7 +11,7 @@ const Content = props => {
         <Container className='myContent'>
             <h2 className='row-cols-1 mt-5'>What do I do?</h2><br />
             <h5 className='row-cols-1 ml-5 mr-5'>
-                When I'm not working, I enjoy doing puzzles, learning about skin care and playing competitive Overwatch!
+                When I'm not working, I can be found cat sitting, playing Overwatch and studying for a pilot's license!
             </h5>
 
             <section className='mt-4 timeline' >

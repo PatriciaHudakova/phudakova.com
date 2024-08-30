@@ -17,6 +17,7 @@ const MyTimeline = () => (
                 <div>
                     <span className="badge badge-pill badge-danger mr-2">Java</span>
                     <span className="badge badge-pill badge-light mr-2">PostgreSQL</span>
+                    <span className="badge badge-pill badge-success mr-2">AWS</span>
                 </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
